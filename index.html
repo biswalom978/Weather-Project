@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="box">
+        <div class="search">
+            <input class="search_bar" type="text" placeholder="enter city name" />
+            <img type="button" class="search_icon" src="images\search.png" />
+            <!-- <div class="search_bar">
+                <input type="text" placeholder="enter city name" />
+            </div>
+            <div class="search_icon">
+                <img src="images\search.png" alt="search img" />
+            </div> -->
+        </div>
+        <div class="main_logo">
+            <img src="images\rain.png" class="weather">
+            <h1>20°C</h1>
+            <h2>Budhikhamar</h2>
+        </div>
+        <div class="bar">
+            <div class="col">
+                <img src="images\humidity.png">
+                <div>
+                    <h3>humidity</h3>
+                    <h3 class="humidity">30%</h3>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images\wind.png">
+                <div>
+                    <h3>air speed</h3>
+                    <h3 class="air_speed">30 km/h</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.8/axios.min.js" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
